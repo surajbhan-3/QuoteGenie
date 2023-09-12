@@ -9,6 +9,13 @@ const port = process.env.PORT || 4500;
 app.use(express.json());
 app.use(cors());
 
+app.get("/",async(req,res)=>{
+     try {
+        res.send("Welcome to homepage")
+     } catch (error) {
+        res.send(error)
+     }
+})
 
 app.post('/search-data', async (req, res) => {
     try {
