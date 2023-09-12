@@ -1,9 +1,76 @@
 body{
     background-color: rgb(114, 182, 209);
+    margin: 0;
+    padding: 0;
+
 
 }
 .navbar{
     border: 1px solid black;
+    background-color: rgb(6, 6, 29);
+     
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+
+}
+
+#text{
+    color: white;
+}
+.data-wrapper{
+
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+.main-section{
+    width: 100%;
+    margin: auto;
+
+
+}
+form{
+    border: 1px solid black;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 12px;
+
+}
+
+.output-section{
+
+    width: 100%;
+    margin: auto;
+ 
+
+
+}
+
+
+.data-div{
+
+    /* border: 1px solid black; */
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 12px;
+
+}
+.data-div p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
-    
+}
+label,input,select{
+    padding: 10px;
+    border-radius: 12px;
+    outline: none;
+    border: 0px;
+
 }

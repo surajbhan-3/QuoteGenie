@@ -16,7 +16,7 @@ form.addEventListener("submit", (e)=>{
         alert("Please enter the Topic")
      }else{
 
-        const baseUrl = "http://localhost:4500/search-data"
+        const baseUrl = "https://tan-motionless-lizard.cyclic.app/search-data"
      const url= `${baseUrl}?option=${option}$value=${value}`
      console.log(url)
 
